@@ -134,6 +134,20 @@ alert("el monto final a pagar es: $"+montofinal.toFixed(2))*/
 
 //ejercicio 8
 
+let horas = parseInt(prompt("Ingrese la cantidad de horas que trabajadas en la semana"));
+
+if(horas<=40){
+    salario=horas*16000;
+}
+else{
+    salario = horas*20000
+}
+
+
+alert("su salario semanal es: $"+salario.toFixed(2));
+
+
+
 
 
 
