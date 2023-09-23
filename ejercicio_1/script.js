@@ -162,22 +162,36 @@ else{
 
 //ejercicio 10
 
-let compra = prompt("Ingrese cuantas camisas compro");
-let descuento = (20/100);
-let descuento2 = (10/100);
-let preciodescu = (compra*descuento);
-let preciodescu2 = (compra*descuento2)
-let Tcompra = parseInt(compra-preciodescu);
-let Tcompra2 = parseInt(compra-preciodescu2)
+/*let compra = prompt("Ingrese cuantas camisas compro");
 
 let camisas = 3;
 
 if (compra > 3){
-    alert("Total a pagar: $" +Tcompra);
+    alert("Total de descuento: " + 20 + "%")
 }
 else {
-    alert("Total a pagar: $" +Tcompra2);
+    alert("Total de descuento: " +10 + "%")
+}*/
+
+
+//ejercicio 11
+
+let numero1 = parseInt(prompt("ingrese 1 número"));
+let numero2 = parseInt(prompt("ingrese 1 número"));
+
+let multiplicación = parseInt(numero1=numero2);
+let resta = parseInt()
+
+
+
+if(numeros =){
+    alert("persona baja de peso")
 }
+else if(peso>71){
+    alert("persona con sobrepreso")
+}
+else{
+    alert("persona peso promedio")
 
 
 
