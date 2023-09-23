@@ -1,11 +1,11 @@
 //ejercicio 1
 
 
-/*let edad = prompt("ingrese su edad");
+/*let edad = prompt("Ingrese su edad");
 
+let mayoredad = 18;
 
-edad = parseInt(edad);
-if (edad >= 18) {
+if (edad >= mayoredad) {
     alert("Eres mayor de edad");
 }
 else {
@@ -22,10 +22,10 @@ let nota3 = parseFloat(prompt("Ingrese su calificación del 1 al 10"));
 let promedio = parseInt(nota1 + nota2 + nota3)/3;
 
 if (promedio > 6){
-    alert("Tu pormedio fue " +promedio.toFixed(2) +" aprobaste");
+    alert("Aprobaste con un promedio de " +promedio)
 }
 else{
-    alert("Tu pormedio fue " +promedio.toFixed(2) +" No probaste");
+    alert("Reprobaste con un promedio de " +promedio)
 }*/
 
 
@@ -65,8 +65,8 @@ else{
 
 /*let peso = prompt("ingrese su peso");
 
+pesoN = 40;
 
-peso = parseInt(peso)
 if(peso<=40){
     alert("persona baja de peso")
 }
@@ -128,13 +128,13 @@ if(montocompra > 1000){
 else{
     montofinal = montocompra * 0.95;
 }
-alert("el monto final a pagar es: $"+montofinal.toFixed(2))*/
+alert("el monto final a pagar es: $"+montofinal)*/
 
 
 
 //ejercicio 8
 
-let horas = parseInt(prompt("Ingrese la cantidad de horas que trabajadas en la semana"));
+/*let horas = parseInt(prompt("Ingrese la cantidad de horas que trabajadas en la semana"));
 
 if(horas<=40){
     salario=horas*16000;
@@ -144,10 +144,40 @@ else{
 }
 
 
-alert("su salario semanal es: $"+salario.toFixed(2));
+alert("su salario semanal es: $"+salario);*/
 
 
+//ejercicio 9
+/*let nombre1n = prompt("ingrese nombre");
+let nombre1 = parseInt(prompt("edad"));
+let nombre2n = prompt("Ingrese nombre");
+let nombre2 = parseInt(prompt("edad"));
 
+if (nombre1>nombre2){
+    alert(nombre1 + " " + nombre1n + " Es mayor que " + nombre2 + " " + nombre2n);
+}
+else{
+    alert(nombre2 + " " + nombre2n + " Es mayor que " + nombre1 +" "+nombre1n);
+}*/
+
+//ejercicio 10
+
+let compra = prompt("Ingrese cuantas camisas compro");
+let descuento = (20/100);
+let descuento2 = (10/100);
+let preciodescu = (compra*descuento);
+let preciodescu2 = (compra*descuento2)
+let Tcompra = parseInt(compra-preciodescu);
+let Tcompra2 = parseInt(compra-preciodescu2)
+
+let camisas = 3;
+
+if (compra > 3){
+    alert("Total a pagar: $" +Tcompra);
+}
+else {
+    alert("Total a pagar: $" +Tcompra2);
+}
 
 
 
