@@ -176,22 +176,48 @@ else {
 
 //ejercicio 11
 
-let numero1 = parseInt(prompt("ingrese 1 número"));
+/*let numero1 = parseInt(prompt("ingrese 1 número"));
 let numero2 = parseInt(prompt("ingrese 1 número"));
 
-let multiplicación = parseInt(numero1=numero2);
-let resta = parseInt()
-
-
-
-if(numeros =){
-    alert("persona baja de peso")
+if(numero1>numero2 ){
+    alert(numero1-numero2);
 }
-else if(peso>71){
-    alert("persona con sobrepreso")
+else if(numero2>numero1){
+    alert(numero2+numero1);
 }
 else{
-    alert("persona peso promedio")
+    alert(numero1*numero2);
+}*/
+
+//ejercicio 12
+
+let numero1 = parseFloat(prompt("Ingresa el primer número:"));
+let numero2 = parseFloat(prompt("Ingresa el segundo número:"));
+let operacion = prompt("Ingresa la operación que deseas realizar (+, -, *, /):");
+
+let resultado;
+
+if (operacion === "+") {
+  resultado = numero1 + numero2;
+} 
+else if (operacion === "-") {
+  resultado = numero1 - numero2;
+} 
+else if (operacion === "*") {
+  resultado = numero1 * numero2;
+} 
+else if (operacion === "/") {
+  resultado = numero1 / numero2;
+} 
+else {
+  
+  alert("Operación no válida");
+}
+
+
+if (resultado !== undefined) {
+  alert("El resultado es: " + resultado);
+}
 
 
 
